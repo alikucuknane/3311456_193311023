@@ -1,2 +1,2 @@
-# dogrudan_ticaret_sistemleri
+# 3311456_193311023
 Flutter ile geliştirilmiş ticaret uygulaması
