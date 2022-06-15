@@ -1,0 +1,72 @@
+name: dogrudan_ticaret_sistemleri
+description: A new Flutter project.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Services
+  # Video Player
+  video_player: ^2.4.4
+  # SEO
+  seo_renderer: ^0.6.0
+  # Url
+  url_launcher: ^6.1.3
+  # Firebase
+  firebase_core: ^1.16.0
+  firebase_auth: ^3.3.17
+  cloud_firestore: ^3.1.14
+  firebase_storage: ^10.2.15
+
+  # UI
+  cupertino_icons: ^1.0.2
+  delayed_display: ^2.0.0
+  # Icons Library
+  font_awesome_flutter: ^10.1.0
+  # modal_bottom_sheet: ^2.0.1
+  # flutter_image_slideshow: ^0.1.2
+  # expandable_widgets: ^1.0.3+1
+  # bubble: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/welcome/
+    - assets/welcome/entrance/
+    - assets/mutual/appbar/
+    - assets/welcome/information/
+    - assets/welcome/service/
+    - assets/welcome/referance/
+    - assets/mutual/appbar/footer0.png
+
+    # welcome
+    # - welcome/images/a_dot_burr.jpeg
+
+    # admin
+    # - admin/images/a_dot_ham.jpeg
+
+    # mutual
+    - assets/mutual/footer/
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
