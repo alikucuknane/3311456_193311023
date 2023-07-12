@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
                 ),
               )),
       theme: sharedTheme,
-      home: InteractiveViewer(),
+      home: IntroPage(),
     );
   }
 }
