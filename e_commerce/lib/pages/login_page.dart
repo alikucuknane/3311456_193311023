@@ -30,7 +30,7 @@ class LoginPage extends StatelessWidget {
                   top: height * 0.04,
                   bottom: height * 0.08,
                 ),
-                child: Text(
+                child: const Text(
                   "Logo",
                 ),
               ),
@@ -79,7 +79,7 @@ class LoginPage extends StatelessWidget {
                                 )
                               : const SizedBox(),
 
-                      enabledBorder: OutlineInputBorder(
+                      enabledBorder: const OutlineInputBorder(
                         borderSide: BorderSide(
                           width: 1,
                           color: Constants.textPrimaryColor,
@@ -146,7 +146,7 @@ class LoginPage extends StatelessWidget {
                       padding: EdgeInsets.symmetric(
                         horizontal: width * 0.01,
                       ),
-                      child: Text(
+                      child: const Text(
                         "or sign in with",
                       ),
                     ),

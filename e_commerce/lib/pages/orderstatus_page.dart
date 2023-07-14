@@ -5,9 +5,7 @@ class OrderStatusPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.height,
-        width = MediaQuery.of(context).size.width;
-    return Scaffold(
+    return const Scaffold(
       body: SafeArea(
         child: Column(
           children: [

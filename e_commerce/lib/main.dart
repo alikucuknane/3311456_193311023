@@ -1,8 +1,5 @@
 // Main Library
 import 'package:e_commerce/pages/home_page.dart';
-import 'package:e_commerce/pages/login_page.dart';
-import 'package:e_commerce/pages/onboarding_page.dart';
-import 'package:e_commerce/pages/signupsuccess_page.dart';
 // import 'package:e_commerce/pages/productview_page.dart';
 import 'package:e_commerce/shared/themedata.dart';
 import 'package:flutter/material.dart';

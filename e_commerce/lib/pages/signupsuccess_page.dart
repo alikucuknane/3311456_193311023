@@ -1,4 +1,3 @@
-import 'package:e_commerce/shared/constants.dart';
 import 'package:e_commerce/shared/sharedlist.dart';
 import 'package:e_commerce/widgets/sharedcontainer_widget.dart';
 import 'package:flutter/material.dart';
