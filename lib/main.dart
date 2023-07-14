@@ -2,7 +2,6 @@ import 'package:dots_e_commerce/pages/bottomnavbarpattern_page.dart';
 import 'package:dots_e_commerce/pages/cart_page.dart';
 import 'package:dots_e_commerce/pages/home_page.dart';
 import 'package:dots_e_commerce/pages/intro_page.dart';
-import 'package:dots_e_commerce/pages/produtview_page.dart';
 import 'package:dots_e_commerce/shared/themedata.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -38,7 +37,7 @@ class MyApp extends StatelessWidget {
                 ),
               )),
       theme: sharedTheme,
-      home: IntroPage(),
+      home: const IntroPage(),
     );
   }
 }

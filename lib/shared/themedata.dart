@@ -16,7 +16,7 @@ ThemeData sharedTheme = ThemeData(
       color: Constants.primaryColor,
     ),
   ),
-  floatingActionButtonTheme: FloatingActionButtonThemeData(
+  floatingActionButtonTheme: const FloatingActionButtonThemeData(
     foregroundColor: Constants.primaryColor,
     backgroundColor: Constants.primaryColor,
   ),

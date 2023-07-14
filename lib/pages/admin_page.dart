@@ -8,21 +8,23 @@ class AdminPage extends StatelessWidget {
     const Color(0xff02d39a),
   ];
 
+  AdminPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Admin Sayfası'),
+        title: const Text('Admin Sayfası'),
       ),
       body: Center(
         child: Container(
           height: 300,
-          padding: EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(16.0),
           child: LineChart(
             LineChartData(
-              lineTouchData: LineTouchData(enabled: false),
-              gridData: FlGridData(show: false),
-              titlesData: FlTitlesData(show: false),
+              lineTouchData: const LineTouchData(enabled: false),
+              gridData: const FlGridData(show: false),
+              titlesData: const FlTitlesData(show: false),
               borderData: FlBorderData(show: false),
               minX: 0,
               maxX: data.length.toDouble() - 1,
@@ -36,7 +38,7 @@ class AdminPage extends StatelessWidget {
                   isCurved: true,
                   color: Colors.amber,
                   barWidth: 4,
-                  dotData: FlDotData(show: false),
+                  dotData: const FlDotData(show: false),
                   belowBarData: BarAreaData(
                     show: true,
                     color: Colors.amber,

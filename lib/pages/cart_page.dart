@@ -287,7 +287,7 @@ class CartPageTopCardWidget extends StatelessWidget {
                         ),
               ],
             ),
-            SizedBox()
+            const SizedBox()
           ],
         ),
       ),

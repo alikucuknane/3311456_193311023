@@ -77,7 +77,7 @@ class _ProfilePageState extends State<ProfilePage> {
                         padding: EdgeInsets.only(
                           left: width * Constants.genaralPadding,
                         ),
-                        child: Icon(
+                        child: const Icon(
                           Icons.keyboard_arrow_down,
                         ),
                       ),
@@ -113,7 +113,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                   Column(
                                     children: [
                                       Container(
-                                        decoration: BoxDecoration(
+                                        decoration: const BoxDecoration(
                                           shape: BoxShape.circle,
                                           color: Constants.whiteColor,
                                         ),
@@ -182,7 +182,7 @@ class ProfilePageAvatarWidget extends StatelessWidget {
           bottom: 0,
           right: 0,
           child: Container(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               shape: BoxShape.circle,
               color: Constants.primaryColor,
             ),
@@ -190,7 +190,7 @@ class ProfilePageAvatarWidget extends StatelessWidget {
               padding: EdgeInsets.all(
                 height * Constants.genaralPadding,
               ),
-              child: Icon(
+              child: const Icon(
                 Icons.camera_alt_outlined,
                 color: Constants.whiteColor,
               ),

@@ -109,10 +109,10 @@ class _ProductViewPageState extends State<ProductViewPage> {
                                 ),
                           ),
                         ),
-                        Spacer(),
+                        const Spacer(),
                         Stack(
                           children: [
-                            FaIcon(
+                            const FaIcon(
                               FontAwesomeIcons.comment,
                               color: Constants.primaryColor,
                             ),
@@ -155,7 +155,7 @@ class _ProductViewPageState extends State<ProductViewPage> {
                     ),
                   ),
                 ),
-                Spacer(),
+                const Spacer(),
                 for (int i = 0; i < 2; i++)
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -224,7 +224,7 @@ class _ProductViewPageState extends State<ProductViewPage> {
             scrollDirection: Axis.horizontal,
             child: Row(
               children: [
-                for (int i = 0; i < 4; i++) Placeholder(),
+                for (int i = 0; i < 4; i++) const Placeholder(),
               ],
             ),
           ),
@@ -250,11 +250,11 @@ class _ProductViewPageState extends State<ProductViewPage> {
               child: Container(
                 height: height * Constants.generalHeight,
                 width: height * Constants.generalHeight,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: Constants.secondaryColor,
                   shape: BoxShape.circle,
                 ),
-                child: Center(
+                child: const Center(
                   child: Icon(
                     Icons.shopping_cart,
                     color: Constants.whiteColor,

@@ -18,17 +18,16 @@ class _BottomNavBarPatternPageState extends State<BottomNavBarPatternPage> {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
-    double width = MediaQuery.of(context).size.width;
     return Scaffold(
       body: SafeArea(
         child: _bottomNavIndex == 0
-            ? HomePage()
+            ? const HomePage()
             : _bottomNavIndex == 3
-                ? ProfilePage()
-                : Text("Other Page"),
+                ? const ProfilePage()
+                : const Text("Other Page"),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(
+        child: const Icon(
           Icons.keyboard_voice,
           color: Constants.whiteColor,
         ),

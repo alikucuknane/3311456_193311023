@@ -81,7 +81,7 @@ class SharedList {
       ),
       ProfilePageCardModel(
         title: "Logout",
-        iconWidget: FaIcon(
+        iconWidget: const FaIcon(
           FontAwesomeIcons.powerOff,
         ),
       ),

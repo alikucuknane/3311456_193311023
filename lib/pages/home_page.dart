@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
               child: HomePageAppBar(width: width, height: height),
             ),
             // Search Bar
-            HomePageSearchBar(),
+            const HomePageSearchBar(),
             // Category
             Padding(
               padding: EdgeInsets.symmetric(
@@ -125,7 +125,7 @@ class HomePageLiveDiscountProductWidget extends StatelessWidget {
                             bottom: width * Constants.genaralPadding,
                             right: width * Constants.genaralPadding,
                             child: Container(
-                              decoration: BoxDecoration(
+                              decoration: const BoxDecoration(
                                 shape: BoxShape.circle,
                                 color: Constants.whiteColor,
                               ),
@@ -133,7 +133,7 @@ class HomePageLiveDiscountProductWidget extends StatelessWidget {
                                 padding: EdgeInsets.all(
                                   width * Constants.genaralPadding,
                                 ),
-                                child: Icon(
+                                child: const Icon(
                                   Icons.add,
                                   color: Constants.primaryColor,
                                 ),
@@ -147,7 +147,7 @@ class HomePageLiveDiscountProductWidget extends StatelessWidget {
                           padding: EdgeInsets.symmetric(
                             vertical: height * Constants.genaralPadding,
                           ),
-                          child: Text(
+                          child: const Text(
                             "Ipad pro 2015",
                           ),
                         ),
@@ -272,7 +272,7 @@ class HomePageLiveDiscountWidget extends StatelessWidget {
               padding: EdgeInsets.only(
                 left: widht * Constants.genaralPadding,
               ),
-              child: FaIcon(
+              child: const FaIcon(
                 FontAwesomeIcons.fire,
                 color: Colors.red,
               ),
@@ -324,7 +324,7 @@ class HomePageProductWidget extends StatelessWidget {
                                         borderRadius: BorderRadius.circular(
                                       height * Constants.genaralPadding,
                                     )),
-                                    child: Placeholder(),
+                                    child: const Placeholder(),
                                   ),
                                 ),
                                 Positioned(
@@ -345,7 +345,7 @@ class HomePageProductWidget extends StatelessWidget {
                                       ),
                                       // child: Icon(
 
-                                      child: DecoratedIcon(
+                                      child: const DecoratedIcon(
                                         icon: Icon(
                                           Icons.favorite,
                                           color: Constants.whiteColor,
@@ -367,7 +367,7 @@ class HomePageProductWidget extends StatelessWidget {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text(
+                                const Text(
                                   "\$25",
                                 ),
                                 Row(
@@ -380,7 +380,7 @@ class HomePageProductWidget extends StatelessWidget {
                                       padding: EdgeInsets.only(
                                         left: width * Constants.genaralPadding,
                                       ),
-                                      child: Text(
+                                      child: const Text(
                                         "4.5",
                                       ),
                                     ),
@@ -422,7 +422,7 @@ class HomePageProductTitleWidget extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Text(
+                  const Text(
                     "data",
                   ),
                   Padding(
@@ -441,7 +441,7 @@ class HomePageProductTitleWidget extends StatelessWidget {
                         padding: EdgeInsets.all(
                           width * Constants.genaralPadding / 2,
                         ),
-                        child: Icon(
+                        child: const Icon(
                           Icons.north_east,
                         ),
                       ),
@@ -504,7 +504,7 @@ class HomePageEnrtanceCardWidget extends StatelessWidget {
             ),
             Expanded(
               flex: 3,
-              child: SizedBox(height: height * 0.15, child: Placeholder()),
+              child: SizedBox(height: height * 0.15, child: const Placeholder()),
             )
           ],
         ),
@@ -575,13 +575,13 @@ class HomePageAppBar extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        FaIcon(
+        const FaIcon(
           FontAwesomeIcons.bars,
         ),
         Column(
           children: [
             for (int i = 0; i < 2; i++)
-              Text(
+              const Text(
                 "data",
               ),
           ],
@@ -599,7 +599,7 @@ class HomePageAppBar extends StatelessWidget {
                       height: height * 0.04,
                       width: height * Constants.genaralPadding * 2.5,
                     ),
-                    Positioned(
+                    const Positioned(
                       bottom: 0,
                       child: FaIcon(
                         FontAwesomeIcons.basketShopping,
@@ -609,7 +609,7 @@ class HomePageAppBar extends StatelessWidget {
                       top: 0,
                       right: 0,
                       child: Container(
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           shape: BoxShape.circle,
                           color: Colors.amber,
                         ),
@@ -617,7 +617,7 @@ class HomePageAppBar extends StatelessWidget {
                           padding: EdgeInsets.all(
                             width * Constants.genaralPadding,
                           ),
-                          child: Text(
+                          child: const Text(
                             "1",
                           ),
                         ),
